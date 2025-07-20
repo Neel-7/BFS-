@@ -8,7 +8,7 @@ map<int,int>level;
 void bfs(int x){
     queue<int>q;
     q.push(x);
-    level[x]=0;
+    level[x] = 0;
     while(!q.empty()){
         int u=q.front();
         q.pop();
