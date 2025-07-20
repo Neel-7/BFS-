@@ -14,7 +14,7 @@ int shortestPath(vector<vector<int>>& grid) {
     queue<pii> q;
 
     q.push({0, 0});
-    dist[0][0] = 1; // Start with distance 1
+    dist[0][0] = 1;
 
     int dx[] = {0, 0, 1, -1};
     int dy[] = {1, -1, 0, 0};
